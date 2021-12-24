@@ -1,0 +1,31 @@
+@keyframes RGB
+{
+    0%{box-shadow:1px 1px 35px blue;}
+    50%{box-shadow: 1px 1px 35px red;}
+    100%{box-shadow: 1px 1px 35px white;}
+}
+
+canvas
+{animation-name: RGB;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+body
+{
+    background: url("http://static4.businessinsider.com/image/55c4befc2acae7f4028be2d9-5120-3840/141006_fellow_00165.jpg");
+    background-position: center;
+    background-size: cover;
+}
+h1
+{
+    color: coral;
+    background: white;
+    margin: 0px auto;
+}
+#snapshot
+{
+    margin-top: 30px;
+    background-color: coral;
+    font-size: 20px;
+    color: white;
+}
